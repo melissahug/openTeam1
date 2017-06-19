@@ -1,0 +1,29 @@
+body {
+	background-color: #303030;
+}
+
+h4, h3 {
+	color: white;
+}
+
+p {
+	color:#696969;
+}
+
+#insight, #subscribe, #contact {
+	width: 33%;
+	float: left;
+
+}
+
+#insight {
+	margin-left: 30px;
+}
+
+#subscribe {
+	margin-left: 10px;
+}
+
+#contact {
+	margin-right: -30px;
+}
