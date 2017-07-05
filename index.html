@@ -4,51 +4,79 @@
 <meta charset = "UTF-8">
 <link REL=StyleSheet HREF="stylesheet.css" TYPE="text/css">
 
-<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="script.js" type="text/javascript"></script>
 
 </head>
 <body>
-<!--NAV bar begin  -->
-<div id="container">
-<nav id="global-nav" class="nav">
- 
-  	 <img src="pic/siteHeader.png" class="sHeader">
-   		<ul class="nav-list">
-        	<li>About</li>
-        	<li>News</li>
-        	<li>Open Swin</li>
-        	<li>Capabilities</li>
-        	<li>Careers</li>
-        	<li>Contact</li>
-       </ul>
-    </nav>
-</div>
-<!--NAV bar end -->
+<!--NAV BEGIN-->
+<div id="wrapper">
+  <header id="js-header">
+      <div class="container">
+          <img src="pic/siteHeader.png" id="logo">
+          <nav>
+              <a href="#about">About</a>
+              <a href="#news">News</a>
+              <a href="#openSwim">Open Swim</a>
+              <a href="#capabilities">Capabilities</a>
+              <a href="#careers">Careers</a>
+              <a href="#contact">Contact</a>
+          </nav>
+      </div>
+  </header>
+<!--NAV END-->
+
 <div id="contactBanner">
-<img src="pic/contactFormPic.jpg" height="450px">
+  <img src="pic/contactFormPic.jpg" height="500px">
 </div>
 
 <!--CONTACT SECTION begin -->
-<div id="phoneSection">
-<h1>CALL US</h1>
-<p class="contactInfo">216-609-3740</p>
-<br/>
-<h1>FAX</h1>
-<p class="contactInfo">216-539-3110</p>
-<br />
-<h1>FOLLOW US</h1>
-<ul class="contactInfo">
-	<li>FaceBook</li>
-	<li>Twitter</li>
-	<li>Instagram</li>
-	<li>Flickr</li>
-	<li>Pinterest</li>
-	<li>LinkedIn</li>
-</ul>
+    <div class="contactInfo">
+      <h1>CALL US</h1>
+        <p class="contactInfo">216-609-3740</p>
+          <br/>
+            <h1>FAX</h1>
+              <p class="contactInfo">216-539-3110</p>
+                  <br />
+      <h1>FOLLOW US</h1>
+        <ul class="contactInfo">
+	         <li>FaceBook</li>
+	         <li>Twitter</li>
+	         <li>Instagram</li>
+	         <li>Flickr</li>
+	         <li>Pinterest</li>
+	         <li>LinkedIn</li>
+        </ul>
+    </div>
+
+  <div class="contactForm">
+    <h2>EMAIL</h2>
+        <form>
+          First Name * <br />
+          <input type="text" name="firstName"></input>
+          <br />
+          Last Name * <br />
+          <input type="text" name="lastName"></input>
+          <br />
+          Email * <br />
+          <input type="text" name="email"></input>
+          <br />
+          Subject * <br />
+          <select>
+            <option>---            </option>
+            <option>General Inquiry</option>
+            <option>New Business and Projects</option>
+            <option>Careers</option>
+            <option>Media &amp; Press </option>
+          </select>
+          <br />
+          Message * <br />
+          <textarea rows="6" col="40" id="message"></textarea>
+        </form>
+ </div>
+
 
 <!--CONTACT SECTION end -->
-
-</div>
 
 <div id="insight">
 <h3>INSIGHTS</h3>
