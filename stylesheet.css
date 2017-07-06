@@ -24,18 +24,20 @@ p {
   width: 49%;
 }
 
+
 .contactInfo, .contactForm {
   float: left;
 }
 
 
+/*Responsive Fail BEGIN
 @media screen and (max-device-width: 780){
 
 	#insight, #subscribe, #contact {
 	width: 33%;
 }
+*/
 
-}
 
 #insight, #subscribe, #contact {
 	width: 33%;
@@ -55,39 +57,7 @@ p {
 	margin-right: -30px;
 }
 
-
-#global-nav {
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-  height: 80px;
-  width: 100%;
-  background-color: white;
-  color: red;
-  -webkit-transition: height 0.3s;
-  -moz-transition: height: 0.3s;
-  -ms-transition: height: 0.3s;
-  -o-transition: height: 0.3s;
-  transition: height 0.3s;
-}
-
-#global-nav.smaller {
-  height: 60px;
-}
-
-#global-nav.smaller .logo {
-  height: 60px;
-}
-.logo {
-	padding-left: 100px;
-	height: 80px;
-}
-
-
-.scrolled-nav .logo{
-  height: 100px;
-}
-
+/*NAV design BEGIN */
 
 .nav-list {
   list-style: none;
@@ -101,10 +71,11 @@ p {
   display: inline-block;
   padding-left: 5px;
   margin-right: 70px;
- 
-}
+ }
+/*NAV bar END */
 
-/* Code pen Code BEGIN*/
+
+/* CODE to adjust Nav Bar BEGIN*/
 header.smaller {
   height: 95px;
 }
@@ -217,3 +188,4 @@ header.smaller #logo {
 header.smaller nav a {
   line-height: 95px;
 }
+/*Code to Adjust Nav BAR END*/
